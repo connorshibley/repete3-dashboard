@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://connorshibley.github.io/repete3-dashboard/sitemap.xml
