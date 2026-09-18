@@ -1,0 +1,148 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>repete3 report — 2026-08-22</title><meta name="description" content="Every repete3 decision from 2026-08-22, as a full case file. Paper account; not financial advice."><link rel="canonical" href="https://connorshibley.github.io/repete3-dashboard/report/2026-08-22.html"><meta property="og:type" content="article"><meta property="og:title" content="repete3 report — 2026-08-22"><meta property="og:url" content="https://connorshibley.github.io/repete3-dashboard/report/2026-08-22.html"><meta name="twitter:card" content="summary"><style>
+:root{--bg:#f6f4ee;--fg:#1c1b18;--mute:#6b6760;--line:#dcd8cd;--card:#fffdf8;
+--buy:#1f7a3f;--sell:#b3261e;--hold:#806400;--right:#1f7a3f;--wrong:#b3261e;--acc:#2f4f8f}
+@media (prefers-color-scheme:dark){:root{--bg:#15161a;--fg:#e8e6df;--mute:#9a978f;
+--line:#2c2e35;--card:#1d1f25;--buy:#5fbf7f;--sell:#ef7a70;--hold:#d9b44a;--right:#5fbf7f;
+--wrong:#ef7a70;--acc:#8fb0f0}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);
+font:15px/1.5 ui-sans-serif,system-ui,-apple-system,Segoe UI,Helvetica,Arial,sans-serif}
+main{max-width:1080px;margin:0 auto;padding:32px 20px 80px}
+h1{font-size:26px;margin:0 0 4px}h2{font-size:18px;margin:36px 0 12px;letter-spacing:.01em}
+.sub{color:var(--mute);margin:0 0 24px}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px}
+.tile{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:12px 14px}
+.tile .k{font-size:12px;color:var(--mute);text-transform:uppercase;letter-spacing:.06em}
+.tile .v{font-size:22px;font-variant-numeric:tabular-nums;margin-top:2px}
+.wrap{overflow-x:auto}table{border-collapse:collapse;width:100%;font-variant-numeric:tabular-nums}
+th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:12px;color:var(--mute);text-transform:uppercase;letter-spacing:.06em}
+.BUY{color:var(--buy);font-weight:600}.SELL{color:var(--sell);font-weight:600}
+.HOLD{color:var(--hold);font-weight:600}.right{color:var(--right)}.wrong{color:var(--wrong)}
+.mute{color:var(--mute)}details{background:var(--card);border:1px solid var(--line);
+border-radius:8px;padding:10px 14px;margin:8px 0}summary{cursor:pointer;font-weight:600}
+pre{white-space:pre-wrap;font:13px/1.45 ui-monospace,SFMono-Regular,Menlo,monospace;
+background:transparent;margin:6px 0 14px}h4{margin:14px 0 2px;font-size:13px;color:var(--acc);
+text-transform:uppercase;letter-spacing:.06em}.lesson{margin:8px 0;padding-left:12px;
+border-left:3px solid var(--acc)}footer{margin-top:48px;color:var(--mute);font-size:13px}
+/* --- the case file --- */
+.stage{margin:26px 0 6px;padding-top:12px;border-top:1px solid var(--line);font-size:12px;
+color:var(--acc);text-transform:uppercase;letter-spacing:.08em;font-weight:700}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:12px;margin:8px 0}
+.pane{border:1px solid var(--line);border-left-width:4px;border-radius:8px;padding:10px 13px;
+background:var(--bg)}
+.pane .who{font-size:12px;font-weight:700;letter-spacing:.05em;margin-bottom:2px}
+.pane .brief{font-size:12px;color:var(--mute);margin-bottom:6px}
+.pane pre{margin:0}
+.p-bull{border-left-color:var(--buy)}.p-bull .who{color:var(--buy)}
+.p-bear{border-left-color:var(--sell)}.p-bear .who{color:var(--sell)}
+.p-risky{border-left-color:var(--hold)}.p-risky .who{color:var(--hold)}
+.p-safe{border-left-color:var(--acc)}.p-safe .who{color:var(--acc)}
+.p-neutral{border-left-color:var(--mute)}.p-neutral .who{color:var(--mute)}
+.p-plain{border-left-color:var(--line)}.p-plain .who{color:var(--mute)}
+.rnd{font-size:11px;color:var(--mute);text-transform:uppercase;letter-spacing:.08em;
+margin:12px 0 0}
+.judge{border:1px solid var(--line);border-radius:8px;padding:11px 14px;margin:10px 0;
+background:var(--bg);border-top:3px solid var(--acc)}
+.judge .who{font-weight:700}.judge pre{margin:8px 0 0}
+.read{font-size:12px;color:var(--mute);margin:3px 0 0}
+.chip{display:inline-block;font:700 11px/1.6 ui-sans-serif,system-ui,sans-serif;
+letter-spacing:.07em;text-transform:uppercase;padding:1px 9px;border-radius:999px;
+border:1px solid currentColor;vertical-align:2px}
+.c-bull{color:var(--buy)}.c-bear{color:var(--sell)}.c-warn{color:var(--hold)}
+.c-acc{color:var(--acc)}.c-none{color:var(--mute);font-weight:600}
+.align{font-size:13px;margin:8px 0 0}
+</style></head><body><main><h1>repete3 · 2026-08-22</h1><p class="sub"><a href="../report.html">← the last 2 days</a> · 1 decision(s) · paper only, not financial advice</p><h2>Decisions</h2><div class="wrap"><table><thead><tr><th>when (UTC)</th><th>ticker</th><th>decision</th><th>conf.</th><th>desk</th><th>outcome</th><th>rationale</th></tr></thead><tbody><tr><td>2026-08-22 18:13</td><td><b>AAPL</b></td><td class="HOLD">HOLD</td><td>medium</td><td><span class="mute" title="firm decided HOLD">no action</span></td><td><span class="wrong">wrong +2.05%</span></td><td class="mute">I adopt the head of risk&#x27;s stop at 305 on the existing long — the trader&#x27;s own plan concedes 300 is a confirmation level, not an executable price, so in a gap scenario the loss is already substantial before you can act; 305 caps that at a bounded 3–4% without committing to a directional call. I reject initiating any new exposure because the asymmetry is poor: negative drift, no named catalyst, 13% vol, and a multiple that isn&#x27;t cheap. I also note the concentration point — &quot;flat&quot; at top-two weight is not neutral; residual correlation through MSFT/GOOGL means portfolio beta exposure persists even with AAPL flat, which I accept as a known but manageable residual.</td></tr></tbody></table></div><h2>The case files</h2><details data-rec="1" id="rec-AAPL20260822T1813530000"><summary>2026-08-22 18:13 · <span class="HOLD">AAPL HOLD</span> (medium) · desk: no order</summary><p class="stage">I · The analyst team — four independent reads</p><div class="grid"><div class="pane p-plain"><div class="who">Market / technical</div><pre>Technical observations for AAPL (daily, 2026-08-21), based on provided market data:
+
+1. Price at 309.35 sits below the SMA50 (309.99) and well under SMA20 (314.20), indicating near-term undertrend.  
+2. RSI(14) at 47.4 is marginally bearish territory, lacking oversold or overbought extremities.  
+3. MACD histogram –0.367 confirms subdued bearish momentum.  
+4. Bollinger Band position –0.20 of ±1.0 band places price in the lower-middle range, not at extremes.  
+5. ATR(14) of 6.39 (2.1% of price) reflects moderate, contained volatility.  
+6. Volume at 0.81x the 60-day average suggests light participation; 52-week price at 91% of high, with 1m return –3.74% offset by 1w +1.12%.  
+
+Bottom line: Technical leaning neutral for this dimension, with slight bearish bias from price/SMA positioning and negative MACD, but lacking conviction due to low volume and neutral RSI.</pre></div><div class="pane p-plain"><div class="who">Sentiment</div><pre><b>Sentiment Report: AAPL (Social Chatter &amp; Crowd Positioning)</b>  
+
+<b>Observations (all based on firm‑computed status and noted source data):</b>  
+1. Social sentiment data for AAPL is unavailable; Reddit feeds were unreachable in the open‑source fetch.  
+2. Per firm protocol, when social data is unavailable, sentiment is classified as <b>unknown</b>, not neutral.  
+3. No firm‑computed crowd positioning metrics (sentiment scores, volume tallies, directional tilts) exist for this period.  
+4. The “UNTRUSTED SOURCE DATA” block contains only fetched headlines/posts; these are treated as reported content, not as measurable signals or directives.  
+5. Zero quantitative chatter volume or sentiment angle can be extracted from social platforms for AAPL at this time.  
+6. Consequently, no numerical support for bullish or bearish positioning is derivable from the social dimension based on firm‑computed figures.  
+
+<b>Bottom line:</b> Neutral — social sentiment data unavailable, no firm‑computed position to assign; lean defaults to neutral per dimensional constraints.</pre></div><div class="pane p-plain"><div class="who">News</div><pre>MEASURED BY THE FIRM: 10 items across 8 distinct sources; all within the last 24h, 10 within 72h; oldest-to-newest span 22h. UNTRUSTED SOURCE DATA reported as open-internet headlines; attributed to named outlets and presented as reported figures, not firm-computed measurements.
+
+Key Observations (numbers as stated in source data; attributed accordingly):
+1. Investing.com (2026-08-22): BofA raised Apple’s FY2026 EPS estimate to $8.85, sitting slightly above the Bloomberg consensus ($8.80) and Visible Alpha ($8.83).
+2. Insider Monkey (2026-08-21): Jefferies downgraded AAPL to underperform, cutting its price target to $263.66 from $285.56, implying ~16% downside from Friday’s close of $313.33.
+3. Stocktwits (2026-08-21): Apple reportedly eliminated &gt;200 jobs across Siri, software engineering, and Vision Pro divisions to refocus on AI capabilities and smart glasses.
+4. Motley Fool (2026-08-22): S&amp;P 500 index funds now hold hundreds of billions more in Nvidia than in Apple, with a quarter of the biggest funds concentrated in five stocks.
+
+Bottom line: (Neutral) — BofA/Visible Alpha EPS upgrades modestly bolster sentiment, but a key Jefferies downgrade, reported restructuring cuts, and sustained Nvidia-led index rotation toward Apple temper near-term outlook; this snapshot yields no definitive directional bias.</pre></div><div class="pane p-plain"><div class="who">Fundamentals</div><pre>Key observations (based on MEASURED BY THE FIRM):
+1. Net debtor position: computed net cash (cash minus debt) is -$21.94B, equating to -0.5% of market cap, confirming a net debt stance.
+2. FCF yield: 2.39%, indicating modest free cash flow return relative to the firm’s enormous market capitalization.
+3. P/E dynamics: forward 32.4 vs trailing 35.5, a -9% gap, signaling market expectations of earnings growth to justify current multiples.
+4. Margin structure: operating-to-net margin gap of 5.0pp, attributable to interest, tax, and one-offs below the operating line.
+
+Bottom line: Neutral.</pre></div></div><p class="stage">II · Research — the bull and the bear</p><p class="read">Both advocates read the same four reports and each other's turns. Neither is trying to be balanced — that is the research lead's job, below.</p><div class="grid"><div class="pane p-bull"><div class="who">Bull</div><div class="brief">asked for the strongest honest case FOR a long</div><pre>The bear&#x27;s strongest card is Jefferies&#x27; $263 target. I&#x27;ll concede it&#x27;s real headwind. But one firm&#x27;s cut doesn&#x27;t override a BofA raise *above* Bloomberg consensus on EPS — that&#x27;s the Street still modeling growth, not capitulation.
+
+More importantly, the bear is overreading the technical picture. &quot;Slight bearish bias&quot; with 0.81x volume and RSI at 47.4 isn&#x27;t a trend — it&#x27;s a pause. You don&#x27;t fade the pause on an asset where the forward/trailing P/E gap (-9%) tells you the market is *already pricing in earnings expansion*. If Apple delivers that growth, the stock retrades as cheap, not expensive.
+
+The net debt figure (-0.5% of market cap) is noise at this scale. FCF yield at 2.39% looks mediocre in isolation, but that&#x27;s against a market cap so large the denominator distorts everything.
+
+And the &quot;rotation into Nvidia&quot; narrative? That&#x27;s passive index flows, not a fundamental verdict. Active managers aren&#x27;t voting on your iPhone ecosystem.
+
+The honest case: AAPL is consolidating, still growing, and the Street hasn&#x27;t lost faith. That&#x27;s a hold, not a sell.</pre></div><div class="pane p-bear"><div class="who">Bear</div><div class="brief">asked for the strongest honest case AGAINST</div><pre>You&#x27;re right that 0.81x volume and RSI at 47 isn&#x27;t a stop sign. I&#x27;ll concede the technicals aren&#x27;t screaming. But you misread what the pause *is*. A pause with no volume and no catalyst isn&#x27;t a pre-breakout — it&#x27;s an absence. You&#x27;re asking me to buy the absence of a reason to move.
+
+On the P/E gap: you&#x27;re framing 32.4x forward as &quot;already pricing in growth.&quot; I&#x27;d flip it. The market is demanding $8.85 EPS — a 0.6% nudge above consensus — to justify those multiples. That&#x27;s not faith, that&#x27;s a bar. One soft quarter and the forward P/E widens while the price compresses. You&#x27;re not being generous; you&#x27;re being priced for perfection.
+
+Jefferies isn&#x27;t &quot;one firm vs. BofA.&quot; A $285 → $263 target from a Street shop that historically sits near consensus is a 7.7% cut. That&#x27;s not a outlier. That&#x27;s the sell-side acknowledging the same structural question your &quot;Nvidia rotation is passive flows&quot; dismissal ignores: Apple&#x27;s index weight is *shrinking*. That&#x27;s not a vote. That&#x27;s a mechanical bleed that compounds regardless of your iPhone thesis.
+
+You said &quot;hold, not sell.&quot; Agreed on the action. But a &quot;hold&quot; on the long side *is* a bearish position relative to the alternative of staying flat. You&#x27;re carrying concentration risk for a stock with no visible engine.</pre></div></div><div class="judge"><span class="who">The research lead</span> <span class="chip c-bear">bear wins</span><p class="read">Read: both analyst reports and the full debate</p><pre>WINNER: bear
+
+The bear made the sharper case by reframing the bull&#x27;s defensive moves. The &quot;priced for perfection&quot; argument on the forward P/E is more intellectually honest than the bull&#x27;s &quot;already pricing in growth&quot; — a 32.4x forward multiple on 2.39% FCF yield is a demand, not a gift. The bear also correctly identified that a zero-catalyst, low-volume consolidation with negative MACD is drift, not a coiling spring. The index-weight bleed point, while partial passive flow, is real capital draining AAPL relative to peers — the bull&#x27;s &quot;active managers aren&#x27;t voting on your iPhone&quot; dismissal was thin.
+
+Strongest bull point: the BofA EPS raise above consensus is a legitimate signal the Street still models growth, and the bear underweighted it.
+
+My stance: <b>bearish lean.</b> The bull never built a case for *upside* — only defended against selling. &quot;Hold, not sell&quot; is a lower bar than the bear&#x27;s &quot;no visible engine&quot; thesis, and the bear met it.</pre></div><p class="stage">III · The trader's plan</p><p class="read">Read: the analyst reports and the research lead's verdict — not the debate turns themselves.</p><div class="pane p-plain"><div class="who">Trader <span class="chip c-warn">HOLD</span></div><pre><b>PROPOSAL: HOLD</b>
+
+I share the research team&#x27;s diagnosis — no upside engine, demanding multiple, negative drift — but the trade setup doesn&#x27;t support acting on it today. You don&#x27;t short a 32x forward multiple into a 13% vol bull-calm regime at RSI 47 and 0.81x volume. There&#x27;s no catalyst forcing a re-rate down, and the BofA raise above consensus is a real counterweight to the Jefferies downgrade, which is one desk&#x27;s opinion, not a systematic signal.
+
+<b>SIZING:</b> Flat. No position initiated, no existing position trimmed. Reasoning: the expected value of a directional bet here is poor relative to the cost of being wrong in a low-vol market.
+
+<b>TIMING:</b> Wait. I&#x27;m looking for one of two triggers: (1) a close below ~300 (below the Bollinger lower band and a natural support shelf), which would confirm the drift has become a trend and justify initiating a short or stopping any long; or (2) a volume-confirmed reclamation of the SMA20 (~314) on a positive catalyst, which would invalidate the &quot;no engine&quot; thesis and justify re-entering long. Until then, the regime gives me nothing to do.
+
+<b>KEY RISKS:</b>
+1. An AI/product catalyst I can&#x27;t see (the Siri/Vision Pro restructuring suggests something is brewing) that re-rates the multiple overnight and makes my caution look like a missed move.
+2. The Nvidia index rotation accelerates from slow bleed to active de-weighting, breaking support without a headline — in that case, my &quot;wait for 300&quot; is too late and I&#x27;m shorting into a gap.
+3. Broad market weakness (SPY regime shift from bull-calm to corrective) drags AAPL down on beta alone, and my hold becomes an unforced loss if I already have a long elsewhere.</pre></div><p class="align">The trader’s proposal <span class="chip c-acc">follows the research lead</span></p><p class="stage">IV · Risk — three appetites over one plan</p><div class="grid"><div class="pane p-risky"><div class="who">Risk-seeking</div><div class="brief">asked where the plan is too timid</div><pre><b>Where this is too timid:</b>
+
+You&#x27;re treating uncertainty about a product catalyst as a reason to be flat, but that&#x27;s exactly when upside is cheapest to own. 13% vol, RSI 47, 300 support — downside is defined, upside is open. You&#x27;ve identified the asymmetry and then declined to trade it. That&#x27;s not prudence; that&#x27;s underweighting convexity.
+
+<b>Evidence for acting:</b>
+
+- You *explicitly* flag Siri/Vision Pro restructuring as &quot;something brewing.&quot; That&#x27;s a research signal, not noise. You don&#x27;t need to know what it is to own the option.
+- 32x forward on a 13% vol name at 4-5% cost of equity is *not* demanding — it&#x27;s fair. The &quot;no engine&quot; diagnosis applies to growth, not valuation.
+- Your own Risk #1 admits you&#x27;d miss a gap past 314. That&#x27;s the cost of waiting. You&#x27;re pricing a free option correctly and then refusing to take it.
+
+<b>What I&#x27;d do:</b> Small long, 300 stop, sized for the gap-up scenario you&#x27;re already worried about.</pre></div><div class="pane p-safe"><div class="who">Conservative</div><div class="brief">asked where the plan is overexposed</div><pre><b>Where the hold is overexposed:</b>
+
+&quot;Wait for 300&quot; assumes an orderly decline. If NVDA rotation accelerates and SPY corrects simultaneously, AAPL gaps through 300 in a session. Your trigger never prints. You&#x27;re exposed to a 5-8% drawdown with no defined exit because your plan has no stop — only a *confirmation level*.
+
+<b>Concentration bleed:</b> If AAPL is already top-two in the book, &quot;flat&quot; on this name is not neutral. You&#x27;re carrying correlation through MSFT, GOOGL, the rest of the complex. The hold instruction only works in isolation.
+
+<b>What a stop would protect:</b> A hard stop at 305 (above the round-number shelf, below the 300 shelf) on any existing or small position converts an undefined gap risk into a known 3-4% max loss. Better than a plan that says &quot;I&#x27;ll act at 300&quot; into a regime where 300 may not print.</pre></div><div class="pane p-neutral"><div class="who">Neutral</div><div class="brief">asked which points should actually change the plan</div><pre><b>Adjustments supported:</b>
+
+From the conservative view, two points force a change. The gap-through-300 risk is real: the trader&#x27;s trigger is a confirmation level, not an executable stop. If AAPL already carries an existing long, a hard stop at 305 converts undefined tail risk into a bounded 3–4% loss. This doesn&#x27;t commit to directionality; it just eliminates the &quot;I&#x27;ll act at 300&quot; fantasy in a regime where 300 may not print.
+
+The concentration point is equally actionable. &quot;Flat&quot; isn&#x27;t neutral if AAPL is top-two in the book. The plan should explicitly note residual correlation exposure through the complex rather than treating absence of delta as absence of risk.
+
+<b>Adjustments rejected:</b>
+
+The risky side&#x27;s &quot;small long, 300 stop&quot; has the same gap-through problem and is dressed up as convexity. At 32x with negative drift, the asymmetry is weaker than claimed. No change.</pre></div></div><div class="judge"><span class="who">The head of risk</span> <span class="chip c-warn">with adjustments</span><p class="read">Read: the trader&#x27;s plan and this discussion</p><pre>RULING: with-adjustments
+
+The plan&#x27;s own Risk #3 confirms an existing long is held. &quot;Hold&quot; with no stop in a 13%/negative-drift regime where the trader&#x27;s own trigger (300) is a confirmation level, not an executable price, leaves undefined tail risk. Required change: hard stop at 305 on the existing position. This is a bounded 3–4% loss, not a directional commitment.
+
+Adopted from conservative: gap-through-300 risk is real and the stop resolves it; concentration point noted — &quot;flat&quot; is not neutral at top-two weight, residual correlation through MSFT/GOOGL must be acknowledged in the position note.
+
+Rejected from risky: the &quot;32x is not demanding&quot; redefinition ignores growth scarcity; &quot;owning optionality you cannot name&quot; is not a trade thesis. The asymmetry at 13% vol with negative drift and no identifiable catalyst does not support initiating new long exposure.</pre></div><p class="stage">V · The portfolio manager — the firm's final word</p><div class="judge"><span class="who">The portfolio manager</span> <span class="chip c-warn">HOLD</span> <span class="chip c-none">medium</span><p class="read">Read: the trader&#x27;s plan and the risk assessment — and nothing else. It did not see the bull, the bear, or even the research lead&#x27;s verdict.</p><pre>I adopt the head of risk&#x27;s stop at 305 on the existing long — the trader&#x27;s own plan concedes 300 is a confirmation level, not an executable price, so in a gap scenario the loss is already substantial before you can act; 305 caps that at a bounded 3–4% without committing to a directional call. I reject initiating any new exposure because the asymmetry is poor: negative drift, no named catalyst, 13% vol, and a multiple that isn&#x27;t cheap. I also note the concentration point — &quot;flat&quot; at top-two weight is not neutral; residual correlation through MSFT/GOOGL means portfolio beta exposure persists even with AAPL flat, which I accept as a known but manageable residual.</pre></div><p class="align">The firm’s decision <span class="chip c-acc">follows the research lead</span></p><p class="stage">The desk — what the rules did with it</p><p class="align"><span class="mute" title="firm decided HOLD">no action</span> <span class="mute">· rail <code>hold</code></span></p><p class="read">firm decided HOLD</p><p class="mute">models {&#x27;deep&#x27;: &#x27;openai_compatible/hf.co/unsloth/Qwen3.8-27B-GGUF:UD-Q8_K_XL&#x27;, &#x27;quick&#x27;: &#x27;openai_compatible/hf.co/unsloth/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-GGUF:UD-Q4_K_M&#x27;} · 15 calls · 365.6s · 0436d15</p></details></main></body></html>
